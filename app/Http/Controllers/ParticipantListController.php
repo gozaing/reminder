@@ -16,10 +16,9 @@ class ParticipantListController extends Controller
 
     public function index()
     {
-//        $list = $this->service->getArrayList();
+        $participantList = $this->service->getArrayList();
 
-//        return view('list')->with('list', $list);
-        return 'he'
+        return view('list')->with('participantList', $participantList);
     }
 
 }

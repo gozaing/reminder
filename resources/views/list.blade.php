@@ -17,13 +17,13 @@
     <tr>
         <th>参加者</th>
         <th>対応予定日</th>
-        <th>残日数</th>
+        <th>残</th>
         <th>メッセージ</th>
     </tr>
     @foreach ($participantList as $patricipant)
         <tr>
             <td>{{ $patricipant->getName() }}</td>
-            <td>{{ $patricipant->getCorrespondingDate() }}</td>
+            <td>{{ $patriEipant->getCorrespondingDate() }}</td>
             <td>{{ $patricipant->getRemainDate() }}</td>
             <td>{{ $patricipant->getMessage() }}</td>
         </tr>
