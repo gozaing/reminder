@@ -23,7 +23,7 @@
     @foreach ($participantList as $patricipant)
         <tr>
             <td>{{ $patricipant->getName() }}</td>
-            <td>{{ $patriEipant->getCorrespondingDate() }}</td>
+            <td>{{ $patricipant->getCorrespondingDate() }}</td>
             <td>{{ $patricipant->getRemainDate() }}</td>
             <td>{{ $patricipant->getMessage() }}</td>
         </tr>
